@@ -24,10 +24,12 @@ body {
 
 /* Header -- Logo & Navbar Styles */
 header {
+    height: 64px;
     display: flex;
     justify-content: space-around;
     align-items: center;
     background-color: var(--hero-background);
+
 }
 
 #logo {
@@ -48,7 +50,42 @@ a {
 }
 
 /* Main -- hero-container styles */
+#hero-container {
+    height: 192px;
+    background-color: var(--hero-background);
+    color: var(--hero);
+    display: flex;
+}
 
+#hero-text-container {
+display: flex;
+flex-direction: column;
+justify-content: center;
+border: 5px solid brown;
+}
+
+#hero-container > button {
+    
+}
+
+#hero-image-container {
+    border: 5px solid brown;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#hero-main-text {
+    color: var(--hero-main-text);
+}
+
+#hero-secondary-text {
+    color: var(--hero-secondary-text);
+}
+
+#hero-image-placeholder-text {
+    color: var(--hero-secondary-text);
+}
 
 /* Main -- information-container styles*/
 
