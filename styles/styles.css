@@ -22,13 +22,41 @@ body {
     font-family: "Roboto", sans-serif;
 }
 
+/* Header -- Logo & Navbar Styles */
 header {
     display: flex;
     justify-content: space-around;
     align-items: center;
+    background-color: var(--hero-background);
+}
+
+#logo {
+    color: var(--header-logo-text);
+    font-size: 24px;
 }
 
 #navbar ul {
     display: flex;
     gap: 24px;
+    list-style-type: none;
+    color: var(--header-link-text);
+    font-size: 18px;
 }
+
+a {
+    text-decoration: none;
+}
+
+/* Main -- hero-container styles */
+
+
+/* Main -- information-container styles*/
+
+
+/* Main -- quote-container styles */
+
+
+/* Main -- cta-container styles */
+
+
+/* Footer styles */
