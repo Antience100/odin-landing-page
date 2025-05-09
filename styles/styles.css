@@ -155,7 +155,7 @@ a {
 }
 
 #quote {
-    max-width: 420px;
+    max-width: 600px;
     display: flex;
     text-align: left;
     font-style: italic;
@@ -169,6 +169,43 @@ a {
 }
 
 /* Main -- cta-container styles */
+.flex-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
+#cta-container {
+    margin: 32px;
+    display: flex;
+    align-items: center;
+    padding: 18px 64px;
+    background-color: var(--button);
+    max-width: 800px;
+    height: 90px;
+    border-radius: 5px;
+}
+
+#cta-text {
+    color: var(--header-logo-text);
+}
+
+#cta-button > button {
+    margin-left: 32px;
+    width: 80px;
+    height: 20px;
+    border: solid 1px var(--header-logo-text);
+    color: var(--header-logo-text);
+    background-color: var(--button);
+    border-radius: 5px;
+}
 
 /* Footer styles */
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--footer-background);
+    color: var(--header-logo-text);
+    height: 100px;
+}
