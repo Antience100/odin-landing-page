@@ -1,0 +1,15 @@
+:root {
+    --hero-background: #1F2937;
+    --footer-background: #1F2937;
+    --hero-main-text: #F9FAF8;
+    --hero-secondary-text: #E5E7EB;
+    --header-link-text: #E5E7EB;
+    --header-logo-text: #F9FAF8;
+    --button: #3882F6;
+    --cta-background: #3882F6;
+    --information-header-text: #1F2937;
+    --quote-section-background: #E5E7EB;
+    --quote-text: 1F2937;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
