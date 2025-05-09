@@ -29,7 +29,6 @@ header {
     justify-content: space-around;
     align-items: center;
     background-color: var(--hero-background);
-
 }
 
 #logo {
@@ -51,28 +50,55 @@ a {
 
 /* Main -- hero-container styles */
 #hero-container {
-    height: 192px;
+    height: 300px;
     background-color: var(--hero-background);
-    color: var(--hero);
     display: flex;
+    align-items: start;
+    justify-content: center;
 }
 
 #hero-text-container {
-display: flex;
-flex-direction: column;
-justify-content: center;
-border: 5px solid brown;
+    margin-left: 285px;
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
 }
 
-#hero-container > button {
-    
+#sign-up-button {
+    background-color: var(--button);
+    color: var(--header-logo-text);
+    border-radius: 5px;
+    width: 80px;
+    height: 20px;
+    border-style: none;
+    margin-top: 10px;
 }
 
 #hero-image-container {
-    border: 5px solid brown;
+    width: 50%;
+    height: 100%;
+    margin-right: 285px;
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+
+#hero-image-placeholder-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+#hero-image-container-background {
+    background-color: gray;
+    height: 200px;
+    width: 400px;
+    margin-left: 360px;
 }
 
 #hero-main-text {
@@ -88,10 +114,59 @@ border: 5px solid brown;
 }
 
 /* Main -- information-container styles*/
+#random-information {
+    font-size: 36px;
+    font-weight: 900;
+    color: var(--information-header-text);
+    margin-top: 32px;
+    margin-bottom: 32px;
+    text-align: center;
+}
+
+.info-box {
+    width: 200px;
+    height: 200px;
+    border: 2px solid var(--button);
+    border-radius: 20%;
+}
+
+#information-container {
+    display: flex;
+    justify-content: center;
+    gap: 52px;
+}
+
+.container-info {
+    max-width: 200px;
+}
+
+.info-text {
+    text-align: center;
+    margin-bottom: 32px;
+}
 
 
 /* Main -- quote-container styles */
+#quote-container {
+    display: flex;
+    flex-direction: column;
+    background-color: var(--quote-section-background);
+    color: var(--quote-text);
+}
 
+#quote {
+    max-width: 420px;
+    display: flex;
+    text-align: left;
+    font-style: italic;
+    margin: 12px auto 12px auto;
+}
+
+#quote-author {
+    align-self: flex-end;
+    font-weight: bold;
+    margin: 12px auto 12px 50%;
+}
 
 /* Main -- cta-container styles */
 
